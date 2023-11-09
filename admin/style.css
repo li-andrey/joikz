@@ -1,0 +1,36 @@
+@charset "windows-1251";
+.center_back {
+	background-image: url(/admin/images/cms_08.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+.title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	color: #44442c;
+}
+.input_text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	padding:2px;
+	border: 1px solid #c4c5a6;
+}
+.small_text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #44442c;
+}
+.bottom_text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #44442c;
+}
+a.bottom_text {
+	color: #2a54db;
+}
+.text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #bf9737;
+}

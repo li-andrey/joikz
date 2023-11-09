@@ -1,0 +1,1344 @@
+@import url("../fonts/stylesheet.css");
+
+body{
+    font-family: 'Halvar Breit Rg';
+    font-size:16px;
+    padding-top: 57px;
+}
+
+body.cke_editable{
+    padding-top:0px;
+}
+
+header .icons ul{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:0px;
+    margin: 0px;
+    list-style: none;
+
+}
+
+header .icons ul li{
+    margin-left: 1rem;
+}
+
+header .icons ul li:first-child{
+    margin-left: 2rem;
+}
+
+header .icons ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+header .icons ul li a img{
+    visibility: hidden;
+    height:28px;
+    min-height: 28px;
+}
+
+header .icons ul li a svg{
+    visibility: hidden;
+    height:28px;
+    min-height: 28px;
+}
+
+.like-icon{
+    height:28px;
+    width: 25px;
+    background: url(/upload/bookmark.svg) no-repeat center center;
+    display: inline-block;
+}
+
+
+.like-icon img{
+    height:28px;
+    visibility: hidden;
+}
+
+header .icons ul li a.phone{
+    background-image: url(/upload/telephone.svg);
+    width: 28px;
+}
+header .icons ul li a.wishlist{
+    background-image: url(/upload/bookmark.svg);
+    width: 28px;
+}
+
+header .icons ul li a.person{
+    background-image: url(/upload/person.svg);
+    width: 28px;
+}
+
+header .icons ul li a.cart{
+    background-image: url(/upload/bag.svg);
+    width: 28px;
+}
+
+header .icons ul li a.phone:hover{
+    background-image: url(/upload/telephone-fill.svg);
+}
+header .icons ul li a.wishlist:hover{
+    background-image: url(/upload/bookmark-fill.svg);
+}
+
+header .icons ul li a.person:hover{
+    background-image: url(/upload/person-fill.svg);
+}
+
+header .icons ul li a.cart:hover{
+    background-image: url(/upload/bag-fill.svg);
+}
+
+header .icons ul li a span{
+    font-size:10px;
+    color: #000;
+    position: absolute;
+    right: -5px;
+    top: -3px;
+}
+
+header .icons ul li a span {
+    font-size: 10px;
+    color: #000;
+    position: absolute;
+    right: -8px;
+    top: -5px;
+}
+
+a{
+    position: relative;
+    color: #000;
+    cursor: pointer;
+    line-height: 1;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #000;
+}
+
+
+
+.form-control{
+    border: 1px solid #000;
+    border-radius: 0px;
+}
+
+header .form-inline .form-control{
+    width: 170px;
+    height: 28px;
+    line-height: 28px;
+}
+
+header .nav-link{
+    font-weight: bold;
+    font-size:16px;
+    overflow: hidden;
+    position: relative;
+    color: #000;
+    padding: 0.5rem 0rem !important;
+}
+
+header .nav-item {
+    padding:0 1.5rem;
+    position: relative;
+}
+
+header .nav-item span{
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000;
+    font-size: 20px;
+}
+
+header .nav-item ul{
+    width: 250px;
+    background: #fff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0,0.2);
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    padding:0.5rem 0rem;
+    margin: 0px;
+    list-style: none;
+
+    visibility: hidden;
+    opacity:0;
+    transform: translateY(-10%);
+}
+
+header .nav-item:hover ul{
+    visibility: visible;
+    opacity:1;
+    transform: translateY(0%);
+    transition: all .3s ease-in-out;
+}
+
+header .nav-item ul li{
+    border-bottom: 1px solid #f1f1f1;
+    padding:0rem 0rem;
+}
+
+header .nav-item ul li:last-child{
+    border: 0px;
+}
+
+header .nav-item ul li a{
+    padding:0.95rem 1.5rem !important;
+    font-size:14px !important;
+    display: block;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+header .nav-item ul li a:hover{
+    background: rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+header .navbar{
+    padding:0.5rem 0;
+    background: #fff;
+}
+
+.dropdown-menu-center {
+    right: auto;
+    left: 50%;
+    -webkit-transform: translate(-50%, 5%);
+    -o-transform: translate(-50%, 5%);
+    transform: translate(-50%, 5%);
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dropdown-menu-arrow {
+    top: -25px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    position: relative;
+}
+.dropdown-menu-arrow:before,
+.dropdown-menu-arrow:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-width: 7px 8px;
+    border-style: solid;
+    border-color: transparent;
+    z-index: 1001;
+}
+.dropdown-menu-arrow:after {
+    bottom: -18px;
+    right: -8px;
+    border-bottom-color: #fff;
+}
+.dropdown-menu-arrow:before {
+    bottom: -17px;
+    right: -8px;
+    border-bottom-color: rgba(0,0,0,.15);
+}
+
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 100%;
+        padding:0 3rem
+    }
+}
+
+header .nav-link:after{
+    content:'';
+    background: #000;
+    height:2px;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    width:100%;
+    transform:translateX(-175%);
+    transition: all 0.3s ease;
+}
+
+header .nav-item:hover .nav-link:after{
+    transform:translateX(-50%);
+}
+footer {
+    position: relative;
+    z-index: 10;
+}
+
+footer .menu{
+    list-style: none;
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+}
+
+footer .menu li{
+    border-top:1px solid #000 ;
+    border-bottom:1px solid #000 ;
+    margin-top: -1px;
+}
+
+footer .menu li>a{
+    font-family: 'Halvar Breit Md';
+    height:60px;
+    line-height:60px;
+    display: block;
+    padding: 0 3rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+footer .menu li>a:hover{
+    background: rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+footer .menu li>a:after{
+    content: '+';
+    font-family: 'Halvar Breit Md';
+    height:60px;
+    line-height:60px;
+    display: block;
+    padding: 0 0rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+    position: absolute;
+    right:3rem;
+    top: 0px;
+}
+
+footer .menu li>a.active:after{
+    content: '-';
+}
+
+footer p{
+    color: #999;
+    font-family: 'Halvar Breit Md';
+    font-weight: 500;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+footer .menu .info{
+    padding: 1rem 3rem;
+    color: #000;
+    font-weight: 400;
+    font-family: 'Halvar Breit Rg';
+    font-size:16px;
+    display: none;
+}
+
+footer .menu .info p{
+    color: #000;
+    font-weight: 400;
+    font-family: 'Halvar Breit Rg';
+    font-size:16px;
+    line-height:22px;
+    margin-bottom: 1rem;
+}
+
+.btn-outline-primary{
+    color: #000;
+    border-radius: 0px;
+    border-color: #000;
+}
+
+.btn-lg{
+    font-size: 18px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.btn-outline-primary:hover{
+    background-color: #000;
+    border-color: #000;
+}
+
+footer .menu .info i{
+    font-size: 32px;
+    margin: 0 0.5rem;
+}
+
+.navbar-brand{
+    margin-right: 0;
+}
+
+.n-search {
+    width: 181px;
+    height: 38px;
+    margin: 0px 0px 0px 0;
+    position: relative;
+}
+
+.form-control:focus{
+    border-color: #000;
+}
+
+.n-search__top {
+    /* position: fixed; */
+    top: 0;
+    right: 0;
+    width: 636px;
+    height: 1px;
+    -webkit-transition: width 0.6s ease, height 0.6s ease;
+    -o-transition: width 0.6s ease, height 0.6s ease;
+    transition: width 0.6s ease, height 0.6s ease;
+}
+
+
+.n-search__top::before {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 58px;
+    background: #fff;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 0.6s ease, visibility 0.6s ease;
+    -o-transition: opacity 0.6s ease, visibility 0.6s ease;
+    transition: opacity 0.6s ease, visibility 0.6s ease;
+}
+
+.has-noti .n-search__top::before {
+    top: 44px;
+}
+
+.n-search__inner {
+    padding: 22px 308px;
+}
+
+.n-search__form {
+    width: 181px;
+    height: 38px;
+    overflow: hidden;
+    -webkit-transition: width 0.6s ease;
+    -o-transition: width 0.6s ease;
+    transition: width 0.6s ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    /* margin: 22px 0; */
+    margin-bottom: 22px;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.search-on .n-search__top {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    z-index: 4;
+}
+
+.search-on .n-search__top::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+.search-on .n-search__form {
+    width: 580px;
+    margin-top: 10px;
+}
+
+
+
+.close-btn::before, .close-btn::after {
+    content: '';
+    display: block;
+    width: 13px;
+    height: 1.2px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -6.5px;
+    cursor: pointer;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.close-btn::after {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+
+.close-btn {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    background: #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.n-search-popup-close {
+    position: fixed;
+    top:15.5px;
+    right: 20px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 100;
+    -webkit-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+.has-noti .n-search-popup-close {
+    top: 71.5px;
+}
+.search-on .n-search-popup-close {
+    -webkit-transition-delay: 0.4s;
+    -o-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
+
+.filter{
+    list-style: none;
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+
+}
+
+.filter>li{
+    border-top:1px solid #000 ;
+    border-bottom:1px solid #000 ;
+    margin-top: 0px;
+}
+
+.filter>li>a{
+    font-family: 'Halvar Breit Md';
+    height:60px;
+    line-height:60px;
+    display: block;
+    padding: 0 3rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.filter>li>a:hover{
+    background: rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+.filter>li>a:after{
+    content: '+';
+    font-family: 'Halvar Breit Md';
+    height:60px;
+    line-height:60px;
+    display: block;
+    padding: 0 0rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+    position: absolute;
+    right:3rem;
+    top: 0px;
+}
+
+.filter>li>a.active:after{
+    content: '-';
+}
+
+
+
+
+.filter .info{
+    padding: 1rem 3rem;
+    color: #000;
+    font-weight: 400;
+    font-family: 'Halvar Breit Rg';
+    font-size:16px;
+    display: none;
+}
+
+.filter .info p{
+    color: #000;
+    font-weight: 400;
+    font-family: 'Halvar Breit Rg';
+    font-size:16px;
+    line-height:22px;
+    margin-bottom: 1rem;
+}
+
+
+.filter-box {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    max-height: 325px;
+    overflow: auto;
+    border-right: 1px solid #e0e0e0;
+}
+
+.filter-content{
+    border-top: 0px solid #e0e0e0;
+    border-bottom: 0px solid #e0e0e0;
+    margin-top: 0rem;
+}
+
+.filter-box:last-child {
+    border-right: 0px;
+}
+
+.filter ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 1rem;
+    font-size:0.9rem
+}
+
+.filter-name{
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.btn-primary{
+    background-color: #000;
+    box-shadow:none;
+    border-color: #000;
+    border-radius: 0px;
+}
+
+.btn-primary:hover{
+    background-color: #212121;
+    border-color: #212121;;
+}
+
+.product-item {
+    max-width: 295px;
+    min-width:265px;
+    margin-bottom: 1rem;
+}
+.product-item .image {
+    position: relative;
+    background: #E3E3E3;
+}
+
+.product-item .image:before {
+    content: '';
+    display: block;
+    padding-bottom: 126%;
+}
+
+.product-item .image img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.product-item .price{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+}
+.product-item .price s{
+    font-size:0.75rem;
+    color: #717171;
+    position: relative;
+    font-weight: normal;
+    text-decoration: none;
+}
+.product-item .price s:after{
+    content:"";
+    display:block;
+    position:absolute;
+    left:0;top:50%;
+    color:#717171;
+    width:100%;
+    height:0;
+    border-bottom:1px solid #717171;
+    transform:rotate(8deg);
+}
+
+.product-item .name{
+    color: #717171;
+    font-size: 0.85rem;
+    font-family: 'Halvar Breit Md';
+    height:4rem;
+    overflow: hidden;
+}
+
+.favorite svg{
+    width: 24px;
+    height: 24px;
+}
+
+.badges{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.badge-dark{
+    border-radius: 0px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    padding:0.3rem 0.75rem;
+    float: left;
+    background-color: #262626;
+}
+
+.badge-light{
+    border-radius: 0px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    padding:0.3rem 0.75rem;
+    float: left;
+    background-color: #fff;
+}
+
+.badges .badge-dark.new{
+    float: right !important;
+}
+
+.product .gallery{
+    border: 1px solid #2e2e2e;
+}
+.product .gallery .slick-slider.slider-for{
+    padding: 0px 2.5rem;
+}
+
+.product .gallery .slick-prev, .product .gallery .slick-next{
+    width: 2.5rem;
+    height: 100%;
+    background: #2e2e2e;
+    transition: all 0.3s ease;
+}
+
+.product .gallery .slick-prev.slick-disabled, .product .gallery .slick-next.slick-disabled{
+    background: #fff;
+}
+
+.product .gallery .slick-prev{
+    left: 0px;
+    border-right: 1px solid #2e2e2e;
+}
+
+.product .gallery .slick-next{
+    right: 0px;
+    border-left: 1px solid #2e2e2e;
+}
+
+.product .gallery .slick-prev:before {
+    content: '<';
+}
+
+.product .gallery .slick-next:before {
+    content: '>';
+}
+.product .gallery .slick-prev:before, .product .gallery .slick-next:before{
+    color: #fff;
+    opacity: 1;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.product .gallery .slick-prev.slick-disabled:before, .product .gallery .slick-next.slick-disabled:before{
+    color: #2e2e2e;
+}
+
+.product .gallery img{
+    width: 100%;
+}
+
+.product .gallery .slider-nav{
+    border-top: 1px solid #2e2e2e;
+    padding: 0 0.25rem 0 0;
+}
+
+.product .gallery .slider-nav .slick-slide .image{
+    padding: 0.25rem;
+}
+
+.product .title{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.product .price{
+    font-size: 1.25rem;
+    font-family: 'Halvar Breit Md';
+}
+
+.product .price s{
+    font-size:0.75rem;
+    color: #717171;
+    position: relative;
+    font-weight: normal;
+    text-decoration: none;
+}
+.product .price s:after{
+    content:"";
+    display:block;
+    position:absolute;
+    left:0;top:50%;
+    color:#717171;
+    width:100%;
+    height:0;
+    border-bottom:1px solid #717171;
+    transform:rotate(8deg);
+}
+.product {
+    font-size: 15px;
+}
+.product .colors{
+    display: flex;
+}
+
+.product .colors .item{
+    border: 1px solid #fff;
+    border-radius: 100%;
+    margin-right: 0.5rem;
+}
+
+.product .colors .item.active{
+    border: 1px solid #2e2e2e;
+}
+
+.product .colors .item>div{
+    width: 2.75rem;
+    height:2.75rem;
+    border-radius: 100%;
+    border: 3px solid #fff;
+}
+
+
+.product .sizes{
+    display: flex;
+}
+
+.product .sizes .item{
+    border: 1px solid #2e2e2e;
+    margin-right: 0.5rem;
+    width: 2.5rem;
+    height:2.5rem;
+    line-height:2.5rem;
+    text-align: center;
+    color: #2e2e2e;
+    font-size:1.25rem;
+}
+
+.product .sizes .item.active{
+    background: #2e2e2e;
+    color: #fff;
+}
+
+.product .sizes .item.disabled{
+    border: 1px solid #919191;
+    color: #919191;
+}
+
+.product .buttons svg{
+    width: 24px;
+    height: 24px;
+}
+
+.product .buttons .btn{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding:1rem 2rem
+}
+
+.product .buttons .btn.btn-outline-primary{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.product .buttons .btn.btn-outline-primary:hover svg{
+    fill: #fff;
+}
+
+.product {
+    overflow:hidden;
+}
+
+.product .tabs{
+    width: 110%;
+}
+
+.additional{
+    list-style: none;
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+
+}
+
+.additional>li{
+    border:1px solid #000 ;
+    margin-top: 0px;
+    margin-right: -1px;
+}
+
+.additional>li>a{
+    height:60px;
+    line-height:60px;
+    display: block;
+    padding: 0 1.5rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    position: relative;
+    text-transform: uppercase;
+    font-size:0.75rem
+}
+
+.additional>li>a:hover{
+    background: rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+.additional>li>a:after{
+    content: '+';
+    font-family: 'Halvar Breit Md';
+    height:60px;
+    line-height:60px;
+    display: block;
+    padding: 0 0rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+    position: absolute;
+    right:3rem;
+    top: 0px;
+}
+
+.additional>li>a.active:after{
+    content: '-';
+}
+
+
+
+
+.additional .info{
+    padding: 1rem 3rem;
+    color: #000;
+    font-weight: 400;
+    font-family: 'Halvar Breit Rg';
+    font-size:15px;
+    display: none;
+}
+
+.additional .info p{
+    color: #000;
+    font-weight: 400;
+    font-family: 'Halvar Breit Rg';
+    font-size:15px;
+    line-height:22px;
+    margin-bottom: 1rem;
+}
+
+
+
+.about-ul{
+    list-style: none;
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+
+}
+
+.about-ul>li{
+
+    margin-top: 0px;
+    margin-bottom: -1px;
+}
+
+.about-ul>li>a{
+    height:60px;
+    line-height:60px;
+    display: block;
+    padding: 0 1.5rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    position: relative;
+    text-transform: uppercase;
+    font-size:0.75rem;
+    border:1px solid #000 ;
+}
+
+.about-ul>li>a:hover{
+    background: rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+.about-ul>li>a:after{
+    content: '+';
+    font-family: 'Halvar Breit Md';
+    height:60px;
+    line-height:60px;
+    display: block;
+    padding: 0 0rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+    position: absolute;
+    right:3rem;
+    top: 0px;
+}
+
+.about-ul>li>a.active:after{
+    content: '-';
+}
+
+
+
+
+.about-ul .info{
+    padding: 1rem 0rem;
+    color: #000;
+    font-weight: 400;
+    font-family: 'Halvar Breit Rg';
+    font-size:15px;
+    display: none;
+}
+
+.about-ul .info p{
+    color: #000;
+    font-weight: 400;
+    font-family: 'Halvar Breit Rg';
+    font-size:15px;
+    line-height:22px;
+    margin-bottom: 1rem;
+}
+
+
+.cart img{
+    max-width:100%
+}
+.cart .delete{
+   font-size: 2rem;
+    transform: rotate(45deg);
+    display: inline-block;
+}
+
+.cart .price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.cart .name {
+    color: #717171;
+    font-size: 0.85rem;
+    font-family: 'Halvar Breit Md';
+}
+
+.cart .art {
+    font-size: 1rem;
+    color: #000;
+}
+
+.cart  hr{
+    margin: 3rem 0;
+    border-color: #2e2e2e;
+}
+.cart .count{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cart .count input{
+    background: 0px;
+    width: 50px;
+    font-size: 2rem;
+    text-align: center;
+    border: 0px;
+    -webkit-appearance: none;
+       margin: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.cart .count a{
+    font-size: 2rem;
+}
+
+@media screen and (max-width:767px){
+    header .navbar{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    header .icons{
+        margin-left: auto;
+        margin-right: 1.5rem;
+    }
+    header .icons ul li{
+        margin-left: 1.5rem
+    }
+    header .icons ul li a img {
+        visibility: hidden;
+        height: 28px;
+    }
+
+    header .icons ul li a.phone img {
+        height: 28px;
+    }
+
+    header .icons ul li a{
+    }
+
+    .navbar-toggler{
+        color: #333;
+        font-size: 24px;
+    }
+
+    .swiper img{
+        height:60vh;
+        position: relative;
+        left:50%;
+        transform: translateX(-50%);
+    }
+
+    footer .menu li a{
+        font-family: 'Halvar Breit Md';
+        height:40px;
+        line-height:40px;
+        display: block;
+        padding: 0 15px;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        position: relative;
+    }
+
+    footer .menu li a:after{
+        height:40px;
+        line-height:40px;
+        right:15px;
+    }
+
+    .navbar-collapse{
+        position: fixed;
+        top: 57px;
+        width: 100%;
+        z-index: 100;
+        background: #fff;
+        left: 0px;
+        padding: 25px 25px 95px;
+        height: 100% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+
+    }
+
+    .navbar-collapse ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    header .nav-item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    header .nav-item ul{
+        position: static;
+        box-shadow: none;
+        text-align: left;
+        align-items: flex-start;
+        display: none;
+        padding:0px;
+    }
+    header .nav-item span{
+        top: 4px;
+        transform: translateY(0);
+    }
+
+    .navbar-collapse ul ul li{
+        margin: 0px;
+        width: 100%;
+        padding: 0px;
+    }
+
+    header .nav-item:hover ul {
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0%);
+        transition: all .3s ease-in-out;
+    }
+
+    .navbar-collapse .n-search{
+        margin-top: auto;
+        width: 100%;
+    }
+    .navbar-collapse form .form-control{
+        width: 100% !important
+    }
+
+    .navbar-collapse ul li{
+        margin-bottom:1rem;
+    }
+    header .nav-item {
+        padding: 0 0rem;
+        position: relative;
+    }
+    header .nav-item ul {
+        width: 100%;
+    }
+    header .nav-item ul li a {
+        padding: 0.95rem 0rem !important;
+    }
+    .navbar-collapse{
+        overflow-y: scroll;
+    }
+
+    .filter .info{
+        padding: 1rem 15px;
+    }
+
+    .product-item {
+        min-width: 135px;
+    }
+
+    .filter>li>a:after{
+        right: 15px;
+    }
+    .navbar-toggler {
+        padding: .25rem  0 .25rem .75rem;
+    }
+
+    .filter>li>a{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    footer .menu .info{
+        padding: 1rem 15px;
+    }
+
+    .n-search__top::before {
+        position: relative
+    }
+
+    .search-on .n-search__form {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .search-on .n-search__top {
+        position: relative;
+        width: 100%;
+        height: 80px;
+        z-index: 4;
+    }
+    .search-on .n-search-popup-close{
+        display: none;
+    }
+    .n-search__top{
+        width: 100%
+    }
+    .n-search__inner{
+        padding: 22px 0px;
+    }
+    .search-on .n-search__form {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .filter-subject i{
+        position: absolute;
+        right:12px;
+        top: 16px;
+        font-size: 20px;
+    }
+    .filter-box{
+        border: 0px;
+        border-bottom: 1px solid #e0e0e0;
+        height: auto;
+        overflow:visible;
+    }
+    .filter-box>div{
+        display: none;
+    }
+
+    .filter-box>div.filter-subject{
+        display: block;
+        padding: 1rem 0
+    }
+    .favorite svg {
+        width: 16px;
+        height: 16px;
+    }
+    .product-item .price {
+        font-size: 0.75rem;
+    }
+    .product-item .price s {
+        font-size: 0.5rem;
+    }
+    .product-item .name {
+        font-size: 0.65rem;
+        height: 3rem;
+    }
+
+    .product .gallery{
+        margin-bottom: 3rem
+    }
+    .product .buttons .btn {
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 1rem 1rem;
+        font-size: 1rem;
+    }
+    .product .tabs {
+        width: 100%;
+    }
+    .additional>li{
+        margin-bottom: -1px;
+    }
+    .additional>li>a span{
+        display: inline !important;
+    }
+
+    .additional{
+        margin-bottom:1rem;
+    }
+}

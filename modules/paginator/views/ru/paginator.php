@@ -1,0 +1,3 @@
+<?=$this->loadScript()?>
+
+        <?=$this->printNavigationBar()?>

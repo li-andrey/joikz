@@ -1,0 +1,1 @@
+[28-Mar-2016 17:44:44 Asia/Almaty] PHP Fatal error:  Using $this when not in object context in /home/u4adm/public_html/tcms/modules/paginator/views/ru/paginator.php on line 1

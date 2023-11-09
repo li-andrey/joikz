@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'Halvar Breit Hl';
+    src: url('HalvarBreit-HlSlanted.eot');
+    src: url('HalvarBreit-HlSlanted.eot?#iefix') format('embedded-opentype'),
+        url('HalvarBreit-HlSlanted.woff2') format('woff2'),
+        url('HalvarBreit-HlSlanted.woff') format('woff'),
+        url('HalvarBreit-HlSlanted.ttf') format('truetype'),
+        url('HalvarBreit-HlSlanted.svg#HalvarBreit-HlSlanted') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halvar Breit Blk';
+    src: url('HalvarBreit-BlkSlanted.eot');
+    src: url('HalvarBreit-BlkSlanted.eot?#iefix') format('embedded-opentype'),
+        url('HalvarBreit-BlkSlanted.woff2') format('woff2'),
+        url('HalvarBreit-BlkSlanted.woff') format('woff'),
+        url('HalvarBreit-BlkSlanted.ttf') format('truetype'),
+        url('HalvarBreit-BlkSlanted.svg#HalvarBreit-BlkSlanted') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halvar Breit Blk';
+    src: url('HalvarBreit-Blk.eot');
+    src: url('HalvarBreit-Blk.eot?#iefix') format('embedded-opentype'),
+        url('HalvarBreit-Blk.woff2') format('woff2'),
+        url('HalvarBreit-Blk.woff') format('woff'),
+        url('HalvarBreit-Blk.ttf') format('truetype'),
+        url('HalvarBreit-Blk.svg#HalvarBreit-Blk') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halvar Breit Hl';
+    src: url('HalvarBreit-Hl.eot');
+    src: url('HalvarBreit-Hl.eot?#iefix') format('embedded-opentype'),
+        url('HalvarBreit-Hl.woff2') format('woff2'),
+        url('HalvarBreit-Hl.woff') format('woff'),
+        url('HalvarBreit-Hl.ttf') format('truetype'),
+        url('HalvarBreit-Hl.svg#HalvarBreit-Hl') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halvar Breit Rg';
+    src: url('HalvarBreit-Bd.eot');
+    src: url('HalvarBreit-Bd.eot?#iefix') format('embedded-opentype'),
+        url('HalvarBreit-Bd.woff2') format('woff2'),
+        url('HalvarBreit-Bd.woff') format('woff'),
+        url('HalvarBreit-Bd.ttf') format('truetype'),
+        url('HalvarBreit-Bd.svg#HalvarBreit-Bd') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halvar Breit Rg';
+    src: url('HalvarBreit-BdSlanted.eot');
+    src: url('HalvarBreit-BdSlanted.eot?#iefix') format('embedded-opentype'),
+        url('HalvarBreit-BdSlanted.woff2') format('woff2'),
+        url('HalvarBreit-BdSlanted.woff') format('woff'),
+        url('HalvarBreit-BdSlanted.ttf') format('truetype'),
+        url('HalvarBreit-BdSlanted.svg#HalvarBreit-BdSlanted') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halvar Breit Md';
+    src: url('HalvarBreit-Md.eot');
+    src: url('HalvarBreit-Md.eot?#iefix') format('embedded-opentype'),
+        url('HalvarBreit-Md.woff2') format('woff2'),
+        url('HalvarBreit-Md.woff') format('woff'),
+        url('HalvarBreit-Md.ttf') format('truetype'),
+        url('HalvarBreit-Md.svg#HalvarBreit-Md') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halvar Breit Hl SuSlanted';
+    src: url('HalvarBreit-HlSuSlanted.eot');
+    src: url('HalvarBreit-HlSuSlanted.eot?#iefix') format('embedded-opentype'),
+        url('HalvarBreit-HlSuSlanted.woff2') format('woff2'),
+        url('HalvarBreit-HlSuSlanted.woff') format('woff'),
+        url('HalvarBreit-HlSuSlanted.ttf') format('truetype'),
+        url('HalvarBreit-HlSuSlanted.svg#HalvarBreit-HlSuSlanted') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halvar Breit Lt';
+    src: url('HalvarBreit-Lt.eot');
+    src: url('HalvarBreit-Lt.eot?#iefix') format('embedded-opentype'),
+        url('HalvarBreit-Lt.woff2') format('woff2'),
+        url('HalvarBreit-Lt.woff') format('woff'),
+        url('HalvarBreit-Lt.ttf') format('truetype'),
+        url('HalvarBreit-Lt.svg#HalvarBreit-Lt') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halvar Breit XTh';
+    src: url('HalvarBreit-XTh.eot');
+    src: url('HalvarBreit-XTh.eot?#iefix') format('embedded-opentype'),
+        url('HalvarBreit-XTh.woff2') format('woff2'),
+        url('HalvarBreit-XTh.woff') format('woff'),
+        url('HalvarBreit-XTh.ttf') format('truetype'),
+        url('HalvarBreit-XTh.svg#HalvarBreit-XTh') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halvar Breit Th';
+    src: url('HalvarBreit-ThSlanted.eot');
+    src: url('HalvarBreit-ThSlanted.eot?#iefix') format('embedded-opentype'),
+        url('HalvarBreit-ThSlanted.woff2') format('woff2'),
+        url('HalvarBreit-ThSlanted.woff') format('woff'),
+        url('HalvarBreit-ThSlanted.ttf') format('truetype'),
+        url('HalvarBreit-ThSlanted.svg#HalvarBreit-ThSlanted') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halvar Breit Rg';
+    src: url('HalvarBreit-Rg.eot');
+    src: url('HalvarBreit-Rg.eot?#iefix') format('embedded-opentype'),
+        url('HalvarBreit-Rg.woff2') format('woff2'),
+        url('HalvarBreit-Rg.woff') format('woff'),
+        url('HalvarBreit-Rg.ttf') format('truetype'),
+        url('HalvarBreit-Rg.svg#HalvarBreit-Rg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halvar Breit XBd';
+    src: url('HalvarBreit-XBd.eot');
+    src: url('HalvarBreit-XBd.eot?#iefix') format('embedded-opentype'),
+        url('HalvarBreit-XBd.woff2') format('woff2'),
+        url('HalvarBreit-XBd.woff') format('woff'),
+        url('HalvarBreit-XBd.ttf') format('truetype'),
+        url('HalvarBreit-XBd.svg#HalvarBreit-XBd') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halvar Breit Md';
+    src: url('HalvarBreit-MdSlanted.eot');
+    src: url('HalvarBreit-MdSlanted.eot?#iefix') format('embedded-opentype'),
+        url('HalvarBreit-MdSlanted.woff2') format('woff2'),
+        url('HalvarBreit-MdSlanted.woff') format('woff'),
+        url('HalvarBreit-MdSlanted.ttf') format('truetype'),
+        url('HalvarBreit-MdSlanted.svg#HalvarBreit-MdSlanted') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halvar Breit Th';
+    src: url('HalvarBreit-Th.eot');
+    src: url('HalvarBreit-Th.eot?#iefix') format('embedded-opentype'),
+        url('HalvarBreit-Th.woff2') format('woff2'),
+        url('HalvarBreit-Th.woff') format('woff'),
+        url('HalvarBreit-Th.ttf') format('truetype'),
+        url('HalvarBreit-Th.svg#HalvarBreit-Th') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halvar Breit Lt';
+    src: url('HalvarBreit-LtSlanted.eot');
+    src: url('HalvarBreit-LtSlanted.eot?#iefix') format('embedded-opentype'),
+        url('HalvarBreit-LtSlanted.woff2') format('woff2'),
+        url('HalvarBreit-LtSlanted.woff') format('woff'),
+        url('HalvarBreit-LtSlanted.ttf') format('truetype'),
+        url('HalvarBreit-LtSlanted.svg#HalvarBreit-LtSlanted') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halvar Breit XBd';
+    src: url('HalvarBreit-XBdSlanted.eot');
+    src: url('HalvarBreit-XBdSlanted.eot?#iefix') format('embedded-opentype'),
+        url('HalvarBreit-XBdSlanted.woff2') format('woff2'),
+        url('HalvarBreit-XBdSlanted.woff') format('woff'),
+        url('HalvarBreit-XBdSlanted.ttf') format('truetype'),
+        url('HalvarBreit-XBdSlanted.svg#HalvarBreit-XBdSlanted') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halvar Breit Rg';
+    src: url('HalvarBreit-RgSlanted.eot');
+    src: url('HalvarBreit-RgSlanted.eot?#iefix') format('embedded-opentype'),
+        url('HalvarBreit-RgSlanted.woff2') format('woff2'),
+        url('HalvarBreit-RgSlanted.woff') format('woff'),
+        url('HalvarBreit-RgSlanted.ttf') format('truetype'),
+        url('HalvarBreit-RgSlanted.svg#HalvarBreit-RgSlanted') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Halvar Breit XTh';
+    src: url('HalvarBreit-XThSlanted.eot');
+    src: url('HalvarBreit-XThSlanted.eot?#iefix') format('embedded-opentype'),
+        url('HalvarBreit-XThSlanted.woff2') format('woff2'),
+        url('HalvarBreit-XThSlanted.woff') format('woff'),
+        url('HalvarBreit-XThSlanted.ttf') format('truetype'),
+        url('HalvarBreit-XThSlanted.svg#HalvarBreit-XThSlanted') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
